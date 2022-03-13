@@ -1,0 +1,24 @@
+{
+  "name": "modern-full-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node chapter_1/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mraposodea2016/modern-full-stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mraposodea2016/modern-full-stack/issues"
+  },
+  "homepage": "https://github.com/mraposodea2016/modern-full-stack#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "request": "^2.88.2"
+  }
+}
