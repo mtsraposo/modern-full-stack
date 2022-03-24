@@ -5,6 +5,7 @@ function start() {
             console.log("Bookmark component created");
         }
 
+        static propTypes = {description: PropTypes.number};
         static defaultProps = {description: "Unknown"};
         title = this.props.title;
         titleStyle = {color: "red"}
